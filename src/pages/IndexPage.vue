@@ -7,12 +7,10 @@
       :draggable_columns="true"
       @dragged_column="draggedColumn($event)"
       :fullscreen="true"
-      :global_search="true"
       @row-click="clickRow($event)"
       selection="multiple"
       file_name="sample"
       :selected="selected"
-      :csv_download="true"
       row_key="name"
       @selected-val="getSelected($event)"
     >
